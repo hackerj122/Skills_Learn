@@ -17,7 +17,7 @@
         android:layout_alignBottom="@+id/img"
         android:layout_margin="50dp"
         android:padding="12dp"
-        android:text="Start Quiz"
+        android:text="Start Quiz "
         android:textSize="22sp"
         android:textStyle="bold"
         />
