@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "230786414613",
+    "project_id": "skills-learn",
+    "storage_bucket": "skills-learn.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:230786414613:android:bcf370472a2edbbab5f61c",
+        "android_client_info": {
+          "package_name": "com.example.skillslearn"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "230786414613-ttb7ov375tefeimi69urvnkvelm6jcj0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5X6Yw4xmlMZfiS08uewJfyrwCRSqDhz4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "230786414613-ttb7ov375tefeimi69urvnkvelm6jcj0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

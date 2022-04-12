@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.skillslearn">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SkillsLearn"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".ui.quiz.StartQuiz"
+            android:exported="false" />
+        <activity
+            android:name=".Pdf.PDFActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Pdf.PDFmain"
+            android:exported="false" />
+        <activity
+            android:name=".chapter.Android.UiDesign"
+            android:exported="false" />
+        <activity
+            android:name=".chapter.Android.LifeCycle"
+            android:exported="false" />
+        <activity
+            android:name=".chapter.Android.EnvSetup"
+            android:exported="false" />
+        <activity
+            android:name=".chapter.Android.IntroAndroid"
+            android:exported="false" />
+        <activity
+            android:name=".chapter.PostMam.Manage_api"
+            android:exported="false" />
+        <activity
+            android:name=".chapter.PostMam.TestApi"
+            android:exported="false" />
+        <activity
+            android:name=".chapter.PostMam.MakeRequest"
+            android:exported="false" />
+        <activity
+            android:name=".chapter.PostMam.IntroPostman"
+            android:exported="false" />
+        <activity
+            android:name=".chapter.WebDev.Roadmap"
+            android:exported="false" />
+        <activity
+            android:name=".chapter.WebDev.Javascript"
+            android:exported="false" />
+        <activity
+            android:name=".chapter.WebDev.Css"
+            android:exported="false" />
+        <activity
+            android:name=".chapter.WebDev.HTML"
+            android:exported="false" />
+        <activity
+            android:name=".chapter.WebDev.IntroWeb"
+            android:exported="false" />
+        <activity
+            android:name=".chapter.mysql.SqlQuery"
+            android:exported="false" />
+        <activity
+            android:name=".chapter.mysql.SqlOperator"
+            android:exported="false" />
+        <activity
+            android:name=".chapter.mysql.Sqldatatype"
+            android:exported="false" />
+        <activity
+            android:name=".chapter.mysql.Sqlsyntax"
+            android:exported="false" />
+        <activity
+            android:name=".chapter.mysql.IntroSql"
+            android:exported="false"
+            android:theme="@style/NoActionBar" />
+        <activity
+            android:name=".authentication.ProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".authentication.LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".authentication.RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.code.codeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.code.CodeCategory"
+            android:exported="false" />
+        <activity
+            android:name=".chaptertopic.TopicActivity"
+            android:exported="false"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/NoActionBar" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

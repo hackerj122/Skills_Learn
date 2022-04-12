@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/pdf"
+        android:icon="@drawable/ic_baseline_picture_as_pdf_24"
+        android:title="eBooks"/>
+    <item android:id="@+id/Video"
+        android:icon="@drawable/ic_baseline_video_library_24"
+        android:title="Video"/>
+    <item android:id="@+id/rate"
+        android:icon="@drawable/ic_baseline_star_rate_24"
+        android:title="Rate us"/>
+    <item android:id="@+id/about"
+        android:icon="@drawable/ic_baseline_supervised_user_circle_24"
+        android:title="About us"/>
+
+</menu>

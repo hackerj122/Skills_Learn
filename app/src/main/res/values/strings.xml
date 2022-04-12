@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Skills Learn</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+
+    <string name="SqlDesc">MySQL is a fast, easy-to-use RDBMS being used for many small and big businesses. MySQL is developed, marketed and supported by MySQL AB, which is a Swedish company. MySQL is becoming so popular because of many good reasons −\n
+
+&#8226; MySQL is released under an open-source license. So you have nothing to pay to use it.\n
+
+&#8226; MySQL is a very powerful program in its own right. It handles a large subset of the functionality of the most expensive and powerful database packages.\n
+
+&#8226; MySQL uses a standard form of the well-known SQL data language.\n
+
+&#8226; MySQL works on many operating systems and with many languages including PHP, PERL, C, C++, JAVA, etc.\n
+
+&#8226; MySQL works very quickly and works well even with large data sets.\n
+
+&#8226; MySQL is very friendly to PHP, the most appreciated language for web development.\n
+
+&#8226; MySQL supports large databases, up to 50 million rows or more in a table. The default file size limit for a table is 4GB, but you can increase this (if your operating system can handle it) to a theoretical limit of 8 million terabytes (TB).\n
+
+&#8226; MySQL is customizable. The open-source GPL license allows programmers to modify the MySQL software to fit their own specific environments.\n</string>
+</resources>
