@@ -14,6 +14,7 @@ import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
 import com.example.skillslearn.R;
+import com.example.skillslearn.chapter.Android.EnvSetup;
 import com.example.skillslearn.chapter.mysql.IntroSql;
 import com.example.skillslearn.chapter.mysql.SqlOperator;
 import com.example.skillslearn.chapter.mysql.SqlQuery;
@@ -172,7 +173,7 @@ public class TopicActivity extends AppCompatActivity {
                 startActivity(new Intent(TopicActivity.this, SqlQuery.class));
                 break;
             case "Environment Setup":
-                startActivity(new Intent(TopicActivity.this, SqlQuery.class));
+                startActivity(new Intent(TopicActivity.this, EnvSetup.class));
                 break;
             case "Activity Life Cycle":
                 startActivity(new Intent(TopicActivity.this, SqlQuery.class));
