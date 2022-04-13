@@ -36,8 +36,6 @@ public class TopicActivity extends AppCompatActivity {
 
     String[] WebDev ={"Introduction to WebDev","HTML","CSS","JavaScript", "Road Map"};
 
-    //String[] Cooking ={"java","android","sub haeding 3","sub haeding 3","sub haeding 4","sub haeding 5","sub haeding 6","sub haeding 7",};
-
     String[] PostMan ={"Introduction to Postman","Making requests","Testing APIs","Building and managing APIs"};
 
     String[] Android ={"Introduction to Android","Environment Setup","Activity Life Cycle","UI Design"};
@@ -80,14 +78,6 @@ public class TopicActivity extends AppCompatActivity {
                         .into(chapterImg);
                 getSupportActionBar().setTitle(chapterName);
                 break;
-//            case "Cooking":
-//                arr = Cooking;
-//                //chapterImg.setImageResource(R.drawable.logoa);
-//                Glide.with(TopicActivity.this).
-//                        load(url)
-//                        .into(chapterImg);
-//                getSupportActionBar().setTitle(chapterName);
-//                break;
             case "Postman":
                 arr = PostMan;
                 //chapterImg.setImageResource(R.drawable.kitten);
